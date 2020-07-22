@@ -7,8 +7,8 @@ from openpyxl import Workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 def Calculo_RCL(data,carga1,nombre,fecha):
-    t88=Tabla88_Disp('/aironDev/Tabla88.xlsx')
-    t87=Tabla87_Disp('/aironDev/Tabla87.xlsx')
+    t88=Tabla88_Disp('aironDev/Tabla88.xlsx')
+    t87=Tabla87_Disp('aironDev/Tabla87.xlsx')
     list_carga1=[]
 
     LCR=[]
